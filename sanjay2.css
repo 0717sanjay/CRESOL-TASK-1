@@ -12,8 +12,6 @@ body {
   line-height: 1.6;
   padding: 2rem 5%;
 }
-
-/* ===== NAVBAR ===== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -42,8 +40,6 @@ body {
 .nav-links a:hover {
   color: hsl(5, 85%, 63%);
 }
-
-/* ===== MAIN CONTAINER ===== */
 .container {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -102,7 +98,6 @@ body {
   background-color: hsl(240, 100%, 5%);
 }
 
-/* ===== SIDEBAR ===== */
 .sidebar {
   background-color: hsl(240, 100%, 5%);
   color: white;
@@ -136,7 +131,7 @@ body {
   border: 0.5px solid hsl(236, 13%, 42%);
 }
 
-/* ===== BOTTOM CARDS ===== */
+
 .botttom-cards {
     display: flex;
     flex-direction: row;
@@ -194,7 +189,7 @@ body {
   font-size: 14px;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
@@ -207,4 +202,5 @@ body {
   .main-text h1 {
     font-size: 2rem;
   }
+
 }
